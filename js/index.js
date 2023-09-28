@@ -1,6 +1,8 @@
 // Import the necessary function for preloading images
 import { preloadImages } from './utils.js';
 
+//NOTE: TO START THE LOCALHOST TETING SERVER: python3 -m http.server in terminal
+
 // Define a variable that will store the Lenis smooth scrolling object
 let lenis;
 
@@ -97,12 +99,12 @@ const scroll = () => {
     const galleries = [
         { id: '#gallery-1', options: { flip: { absoluteOnLeave: true, scale: false } } },
         { id: '#gallery-2' },
-        { id: '#gallery-3', options: { flip: { absolute: true, scale: false }, scrollTrigger: { start: 'center center', end: '+=900%' }, stagger: 0.05 } },
-        { id: '#gallery-4' },
-        { id: '#gallery-5' },
-        { id: '#gallery-6' },
-        { id: '#gallery-7' },
-        { id: '#gallery-8', options: { flip: { scale: false } } },
+        // { id: '#gallery-3', options: { flip: { absolute: true, scale: false }, scrollTrigger: { start: 'center center', end: '+=900%' }, stagger: 0.05 } },
+        // { id: '#gallery-4' },
+        // { id: '#gallery-5' },
+        // { id: '#gallery-6' },
+        // { id: '#gallery-7' },
+        // { id: '#gallery-8', options: { flip: { scale: false } } },
         { id: '#gallery-9' },
     ];
 
